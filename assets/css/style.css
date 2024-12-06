@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --card-bg: #FAFAF5;
+    --price-color: #426B1F;
+}
+
+.pr-img img{
+    height: 120px;
+}
+
+.item-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: var(--card-bg);
+    margin-bottom: 15px;
+  }
+  .item-card img {
+    max-width: 60px;
+    height: auto;
+    border-radius: 8px;
+  }
+  .item-info {
+    flex-grow: 1;
+    margin-left: 15px;
+  }
+  .price {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .order-summary {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  .total-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .btn-color{
+    background-color: #426B1F;
+    color: white;
+  }
+
+  .text-success{
+    color: var(--price-color);
+  }
